@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DICEHOG - Rules</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <img src="img/logo.png" alt="Pig logo" class="nav__logo" id="logo" />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="rules.html">Rules</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="about.html">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn" href="index.html">Play</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <content>
+        <h2 class="content--label">rules</h2>
+        <p class="content slide slide--0">
+          1. If a hog rolls a 1, their turn is over, and they get no points
+          added to their score.
+        </p>
+        <p class="content slide slide--1 hidden">
+          2. If a hog rolls any other number, it is added to their current
+          score, and they continue to roll.
+        </p>
+        <p class="content slide slide--2 hidden">
+          3. If a hog “holds,” their current points are added to their total
+          score and the other hog gets to go.
+        </p>
+        <p class="content slide slide--3 hidden">
+          4. The first hog to earn 100 points wins.
+        </p>
+
+        <nav class="rules__nav">
+          <ul class="rules__links">
+            <li class="rules__item">
+              <button class="rules__btn rules__btn--previous">Previous</button>
+            </li>
+            <li class="rules__item">
+              <button class="rules__btn rules__btn--next">Next</button>
+            </li>
+          </ul>
+        </nav>
+      </content>
+    </main>
+
+    <script src="js/nav.js"></script>
+    <script src="js/rules.js"></script>
+  </body>
+</html>
